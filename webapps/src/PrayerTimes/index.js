@@ -42,8 +42,8 @@ export default function PrayerTimes() {
     return (
       <ListGroup.Item key={key}>
         <Row>
-          <Col xs={8}>{title}</Col>
-          <Col className="list-item-time" xs={4}>
+          <Col xs={6}>{title}</Col>
+          <Col className="list-item-time" xs={6}>
             {time}
           </Col>
         </Row>

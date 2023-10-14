@@ -26,18 +26,18 @@ code {
   Prayer Times App
 */
 .prayer-times-container {
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .prayer-times-container .list-group-item {
-  padding: 20px !important;
-  font-size: 30px;
+  padding: 0 25px !important;
+  font-size: 19px;
 }
 
 .prayer-times-container .heading {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
   font-weight: bold;
 }
 
