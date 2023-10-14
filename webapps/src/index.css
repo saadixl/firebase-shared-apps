@@ -1,13 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: #fff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/*
+  Home app
+*/
+.home-container {
+  padding: 30px;
+  text-align: center;
+}
+
+/*
+  Prayer Times App
+*/
+.prayer-times-container {
+  padding: 30px;
+}
+
+.prayer-times-container .list-group-item {
+  padding: 20px !important;
+  font-size: 30px;
+}
+
+.prayer-times-container .heading {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.prayer-times-container .list-item-time {
+  text-align: right;
 }
